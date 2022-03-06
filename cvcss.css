@@ -84,6 +84,12 @@ a:hover{
     text-align: center;
 }
 
+.experience h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 .experience li{
     margin: 20px 0;
 }
@@ -147,7 +153,7 @@ a:hover{
     flex-direction: column;
     text-align: center;
     margin: auto auto 20px auto;
-    width: 40vw;
+    width: 50vw;
     height: auto;
     position: relative;
     background: #434750;
