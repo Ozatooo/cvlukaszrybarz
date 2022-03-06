@@ -1,0 +1,253 @@
+body{
+    background-color: #1D334A;
+    margin:0px;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #2187e7;
+}
+
+
+.container{
+    margin: 0px;    
+}
+
+.menu{
+    background-color:  #3E5F8A;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: auto;
+    width: 100vw;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+}
+
+.name h2:after,.name h2:before{
+    padding:1vw;
+    content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+    text-decoration:line-through;
+    opacity: 60%;
+}
+
+.name h2{    
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 200%;
+}
+
+.about_me{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 60vw;
+    margin: auto;
+}
+  
+.links{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 15vw;
+    height: auto;
+ }
+
+ .links img{
+     width:2vw;
+ }
+
+.experience{
+    width:100vw;
+    list-style: none;
+    width:30vw;
+    margin: 60px auto;
+    color:white;
+    text-align: center;
+}
+
+.experience li{
+    margin: 20px 0;
+}
+
+.bar{
+    background-color: #353b48;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+
+.bar span{
+    height: 2px;
+    float: left;
+    background-color: #2187e7;
+}
+
+.html{
+    width: 50%;
+}
+
+.css{
+    width: 45%;
+}
+
+.php{
+    width: 40%;
+}
+
+.js{
+    width:30%;
+}
+
+.vue{
+    width:30%;
+}
+
+.laravel{
+    width:50%;
+}
+
+.cpp{
+    width:30%;
+
+}
+
+.projects{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+
+.project{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: auto auto 20px auto;
+    width: 40vw;
+    height: auto;
+    position: relative;
+    background: #434750;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    color: white;
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+    transition: all .4s ease;
+}
+
+.project:hover {
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+  }
+
+  
+.education{
+    display: flex;
+    justify-content: center;
+    width: 99vw;
+    height: auto;
+}
+.education h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 0px;
+}
+:root {
+    --primary-color: #1D334A; /* try #212121 also for dark mode */
+    --background-color: #000000;
+    --font: sans-serif;
+  }
+
+/* Timeline Container */
+.line {
+    background: var(--primary-color);
+    margin: 20px auto;
+    padding: 20px;
+    padding-left: 40px;
+  }
+  
+  /* Outer Layer with the timeline border */
+  .outer {
+    border-left: 2px solid #ffffff;
+  }
+  
+  /* Card container */
+  .card {
+    position: relative;
+    margin: 0 0 20px 20px;
+    background: #1D334A;
+    color: gray;
+    border-radius: 8px;
+    max-width: 400px;
+  }
+  
+  /* Information about the timeline */
+  .info {
+    background-color: #ffffff;
+    padding-left: 10px;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Title of the card */
+  .title {
+    color: #2187e7;
+    position: relative;
+  }
+  
+  /* Timeline dot  */
+  .title::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 999px;
+    left: -39px;
+    border: 3px solid #2187e7;
+  }
+ 
+ .contact{
+     width: 100vw;
+     border: 1px solid white;
+     height: 20vh;
+ }
+
+ .footer{
+    width: 100vw;
+    background-color: #3E5F8A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw;
+ }
+
+ .footer_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+ .footer img{
+    width: 7vw;
+    padding: 0.5vw;
+ }
+  
