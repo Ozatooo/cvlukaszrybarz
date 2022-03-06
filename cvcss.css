@@ -27,7 +27,7 @@ a:hover{
     justify-content: space-evenly;
     flex-direction: row;
     margin: auto;
-    width: 100vw;
+    width: 99vw;
 }
 
 .name{
@@ -232,7 +232,6 @@ a:hover{
  }
 
  .footer{
-    width: 100vw;
     background-color: #3E5F8A;
     display: flex;
     justify-content: center;
