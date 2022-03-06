@@ -64,14 +64,15 @@ a:hover{
   
 .links{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: auto;
     width: 15vw;
     height: auto;
  }
 
  .links img{
-     width:2vw;
+     width:4vw;
+     padding: 2vw;
  }
 
 .experience{
