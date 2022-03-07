@@ -20,6 +20,6 @@ document.addEventListener('click', function(e) {
     if (!isClickInsideElement) {
        
         mobile_menu[0].style.animation="shift_b 0.5s 1";
-        mobile_menu[0].style.right = '-100%';
+        mobile_menu[0].style.right = '-110%';
     }
 });

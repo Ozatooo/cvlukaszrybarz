@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
 @keyframes shift
 {
     0% {
@@ -24,6 +25,7 @@ body{
     margin:0px;
     color: white;
     overflow-x: hidden;
+    font-family: 'Work Sans', sans-serif;
 }
 
 html {
@@ -65,7 +67,7 @@ a:hover{
     display: flex;
     position: fixed;
     top:0px;
-    right: -100%;
+    right: -110%;
     height: 100%;
     width: 100vw;
     background-color: #1D334A;
