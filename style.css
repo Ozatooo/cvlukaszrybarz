@@ -54,7 +54,7 @@ a:hover{
     flex-direction: column;
 }
 
-.mobile_menu h1, a{
+.mobile_menu h1, .mobile_menu a{
     padding: 2vh;
     font-size: 7vw;
     color: #197BBD;
