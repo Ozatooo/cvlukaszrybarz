@@ -2,6 +2,7 @@ body{
     background-color: #1D334A;
     margin:0px;
     color: white;
+    overflow-x: hidden;
 }
 
 html {
@@ -27,7 +28,7 @@ a:hover{
     justify-content: space-evenly;
     flex-direction: row;
     margin: auto;
-    width: 99vw;
+    width: 100vw;
 }
 
 .x_menu{
@@ -39,18 +40,25 @@ a:hover{
     background-color:#1D334A ;
     color: white;
 }
-.moblie_menu{
+.mobile_menu{
     display: none;
     position: fixed;
     top:0px;
     height: 100%;
     width: 100vw;
-    /*cursor: pointer;*/
-    text-align: center;
     background-color: #1D334A;
-    opacity: 85%;
+    opacity: 95%;
     z-index: 100;
-    padding-top: 30vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mobile_menu h1, a{
+    padding: 2vh;
+    font-size: 7vw;
+    color: #197BBD;
+    
 }
 
 .menu h1{
@@ -176,9 +184,10 @@ a:hover{
     flex-direction: column;
     text-align: center;
     margin: auto auto 20px auto;
-    width: 50vw;
+    width: 60vw;
     height: auto;
     position: relative;
+    padding: 10px;
     background: #434750;
     border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
     color: white;
