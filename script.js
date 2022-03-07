@@ -18,7 +18,7 @@ x_menu.addEventListener("click", function (e) {
 document.addEventListener('click', function(e) {
     var isClickInsideElement = x_menu.contains(event.target);
     if (!isClickInsideElement) {
-       
+        
         mobile_menu[0].style.animation="shift_b 0.5s 1";
         mobile_menu[0].style.right = '-110%';
     }
