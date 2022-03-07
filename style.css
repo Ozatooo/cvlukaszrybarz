@@ -30,6 +30,29 @@ a:hover{
     width: 99vw;
 }
 
+.x_menu{
+    position: fixed;
+    right:0px;
+}
+
+#x_menu{
+    background-color:#1D334A ;
+    color: white;
+}
+.moblie_menu{
+    display: none;
+    position: fixed;
+    top:0px;
+    height: 100%;
+    width: 100vw;
+    /*cursor: pointer;*/
+    text-align: center;
+    background-color: #1D334A;
+    opacity: 85%;
+    z-index: 100;
+    padding-top: 30vh;
+}
+
 .menu h1{
     font-size: 2vw;
 }
