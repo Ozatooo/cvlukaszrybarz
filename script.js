@@ -11,7 +11,7 @@ if (isMobile) {
 x_menu.addEventListener("click", function (e) {
 
     mobile_menu[0].style.display = 'flex';
-    
+
 });
 
 document.addEventListener('click', function(e) {
