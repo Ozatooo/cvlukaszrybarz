@@ -249,6 +249,7 @@ a:hover{
     border-radius: 5%;
     display: flex;
     flex-direction: column;
+    padding: 0.5vw;
   }
   
   /* Title of the card */
