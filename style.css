@@ -21,7 +21,7 @@
 }
 
 @media only screen and (max-width: 1200px){
-    .name h2:after,.name h2:before{
+    .name h1:after,.name h1:before{
         display: none;
     }
 }
@@ -100,7 +100,7 @@ a:hover{
     font-size: 4vw;
 }
 
-.name h2:after,.name h2:before{
+.name h1:after,.name h1:before{
     padding:1vw;
     content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
     text-decoration:line-through;
@@ -108,10 +108,12 @@ a:hover{
 }
 
 
-.name h2{    
+.name h1{    
     justify-content: center;
     text-transform: uppercase;
     margin: 1vw;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c, -40px -40px 0px rgba(206,89,55,0);
+    font-size: 5vw;
 }
 
 .about_me{
@@ -141,17 +143,19 @@ a:hover{
     width:100vw;
     list-style: none;
     width:60vw;
-    margin: 60px auto;
+    margin: 0px auto;
     color:white;
     text-align: center;
     padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 
 }
-.experience h2{
+.experience h1{
     display: flex;
     justify-content: center;
     text-align: center;
+    margin: 0px;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
 }
 
 .experience li{
@@ -211,6 +215,11 @@ a:hover{
     margin: auto;
 }
 
+
+.projects h1{
+    color: white;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+}
 .project{
     display: flex;
     justify-content: center;
@@ -245,6 +254,7 @@ a:hover{
     justify-content: center;
     text-align: center;
     padding-top: 0px;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
 }
 :root {
     --primary-color: #1D334A; 
