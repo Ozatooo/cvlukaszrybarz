@@ -122,8 +122,10 @@ a:hover{
     flex-direction: column;
     text-align: center;
     width: 60vw;
-    margin: auto;
+    margin: auto auto 4vh auto;
     font-size: 1.2vw;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
   
 .links{
