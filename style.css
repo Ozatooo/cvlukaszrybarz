@@ -344,8 +344,17 @@ a:hover{
     font-size: 1vw;
  }
 
- .footer img{
+
+.footer img{
     width: 7vw;
     padding: 2vw;
+ }
+
+ .copyright{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #3E5F8A;
+    width: 100vw;
  }
   
