@@ -2,11 +2,11 @@ const isMobile = window.matchMedia("only screen and (max-width: 1200px)").matche
 const x_menu = document.getElementById("x_menu");
 const mobile_menu = document.getElementsByClassName("mobile_menu");
  
-// if (isMobile) {
-//     document.getElementsByClassName("menu")[0].style.display = 'none';
-// } else {
-//     document.getElementsByClassName("x_menu")[0].style.display = 'none';
-// }
+if (isMobile) {
+    document.getElementsByClassName("menu")[0].style.display = 'none';
+} else {
+    document.getElementsByClassName("x_menu")[0].style.display = 'none';
+}
 
 x_menu.addEventListener("click", function (e) {
 
