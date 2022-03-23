@@ -22,12 +22,12 @@
 @media only screen and (min-width: 1200px){
     .x_menu{
         display: none;
-        
+
     }
 }
 @media only screen and (max-width: 1200px){
     .name h1:after,.name h1:before{
-        display: none;
+        display: none !important;
     }
 
     .name h1{    
