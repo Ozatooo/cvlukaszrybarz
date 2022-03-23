@@ -24,6 +24,10 @@
     .name h1:after,.name h1:before{
         display: none;
     }
+    
+    .x_menu{
+        display: flex;   
+    }
 
     .name h1{    
         font-size: 8.5vw !important;
