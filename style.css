@@ -27,15 +27,15 @@
 }
 @media only screen and (max-width: 1200px){
     .name h1:after,.name h1:before{
-        display: none !important;
+        display: none ;
     }
 
     .name h1{    
         font-size: 8.5vw !important;
     }
 
-    .menu{
-        display: none;
+    #menu{
+        display: none !important;
     }
 
     .about_me{
