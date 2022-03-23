@@ -22,6 +22,7 @@
 @media only screen and (min-width: 1200px){
     .x_menu{
         display: none;
+        
     }
 }
 @media only screen and (max-width: 1200px){
