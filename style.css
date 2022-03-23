@@ -28,6 +28,10 @@
     .x_menu{
         display: flex;   
     }
+    
+    .menu{
+           display: none;
+    }
 
     .name h1{    
         font-size: 8.5vw !important;
