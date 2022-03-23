@@ -19,7 +19,11 @@
         display: none;
     }
 }
-
+@media only screen and (min-width: 1200px){
+    .x_menu{
+        display: none;
+    }
+}
 @media only screen and (max-width: 1200px){
     .name h1:after,.name h1:before{
         display: none;
@@ -27,6 +31,10 @@
 
     .name h1{    
         font-size: 8.5vw !important;
+    }
+
+    .menu{
+        display: none;
     }
 
     .about_me{
