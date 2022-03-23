@@ -25,10 +25,6 @@
         display: none;
     }
     
-    .x_menu{
-        display: flex;   
-    }
-    
     .menu{
            display: none;
     }
