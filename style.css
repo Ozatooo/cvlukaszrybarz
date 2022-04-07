@@ -34,7 +34,7 @@
         font-size: 8.5vw !important;
     }
 
-    #menu{
+    .menu{
         display: none !important;
     }
 
@@ -218,7 +218,7 @@ a:hover{
 }
 
 .laravel{
-    width:50%;
+    width:25%;
 }
 
 .cpp{
@@ -339,7 +339,7 @@ a:hover{
      height: 20vh;
  }
 
- .footer{
+ footer{
     background-color: #3E5F8A;
     display: flex;
     justify-content: center;
@@ -347,7 +347,7 @@ a:hover{
     width: 100vw;
  }
 
- .footer_item{
+ .footer_info{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -355,7 +355,7 @@ a:hover{
  }
 
 
-.footer img{
+footer img{
     width: 7vw;
     padding: 2vw;
  }
