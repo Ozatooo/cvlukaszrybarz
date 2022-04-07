@@ -339,7 +339,7 @@ a:hover{
      height: 20vh;
  }
 
- footer{
+ .information{
     background-color: #3E5F8A;
     display: flex;
     justify-content: center;
@@ -355,7 +355,7 @@ a:hover{
  }
 
 
-footer img{
+.information img{
     width: 7vw;
     padding: 2vw;
  }
