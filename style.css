@@ -20,7 +20,7 @@
     }
 }
 @media only screen and (min-width: 1200px){
-    .x_menu{
+    .hamburger{
         display: none;
 
     }
@@ -77,12 +77,12 @@ a:hover{
     width: 100vw;
 }
 
-.x_menu{
+.hamburger{
     position: fixed;
     right:0px;
 }
 
-#x_menu{
+#hamburger{
     background-color:#1D334A ;
     color: white;
 }
