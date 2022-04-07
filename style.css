@@ -347,7 +347,7 @@ a:hover{
     width: 100vw;
  }
 
- .footer_info{
+ .footer_item{
     display: flex;
     flex-direction: column;
     justify-content: center;
