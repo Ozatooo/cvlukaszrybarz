@@ -52,6 +52,7 @@
      }
      .information img{
          margin-top: 2vh !important;
+         width: 10vw;
      }
      #contact{
         background-color: #1D334A ;
